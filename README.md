@@ -1,12 +1,12 @@
 # Titanic-Survival-Analysis
 
-![](https://github.com/Berry-of-Tech/Titanic-Survival-Analysis/blob/main/Titanic%20image.jpg)
+![](https://github.com/Berry-of-Tech/Titanic-Survival-Analysis/blob/main/titanic%20image%20WEBP.webp)
 
 ## 1. INTRODUCTION
 
 The Titanic was a British luxury passenger liner that was built in 1912 and owned by the White Star Line. It was one of the largest and most opulent ships of its time, measuring 882 feet in length and weighing 46,328 gross tons. The Titanic was designed to carry up to 3,547 passengers and crew and boasted state-of-the-art amenities such as a swimming pool, gym, Turkish bath, and squash court. Tragically, the Titanic sank on its maiden voyage from Southampton, England, to New York City after striking an iceberg in the North Atlantic Ocean on April 14, 1912. The disaster resulted in the loss of over 1,500 lives, making it one of the deadliest commercial peacetime maritime disasters in modern history.
 
-> The tool use for this project was Microsoft Excel
+> The tool used for this project was Microsoft Excel
 
 ---
 
@@ -47,6 +47,8 @@ Before commencing the cleaning process, the data was imported into Microsoft Exc
 
 ![](https://github.com/Berry-of-Tech/Titanic-Survival-Analysis/blob/main/Titanic%20unclean%20data.webp)
 
+---
+
 **Pclass:** The Pclass column in the Titanic dataset was originally represented as numerical values, ranging from 1 to 3, corresponding to the different passenger classes on board the ship. To make the data more interpretable, I decided to convert these numerical values into their respective class names: ‘First Class’, ‘Second Class’, and ‘Third Class’. I also renamed the ‘Pclass’ column to a more descriptive name that reflects its contents; ‘Passenger Class’.
 
 ![](https://github.com/Berry-of-Tech/Titanic-Survival-Analysis/blob/main/P-class%20clean.webp)
@@ -55,18 +57,25 @@ Pclass column after cleaning
 
 By converting the ‘Pclass’ values to their respective class names, I was able to create a more readable and intuitive dataset that could be easily understood by others.
 
+---
+
 **Survived:** The Survived column in the Titanic dataset indicates whether a passenger survived the sinking of the ship or not, with 1 representing survival and 0 representing death. However, the column required some cleaning and reformatting to ensure consistency and accuracy in the data.
 
 ![](https://github.com/Berry-of-Tech/Titanic-Survival-Analysis/blob/main/Survived%20clean.webp)
 
 Survived column after cleaning
 
+---
+
 **Name:** The Name column in the Titanic dataset contained the names of all passengers on board the ship. However, the names were formatted in a way that required some cleaning and reformatting to extract useful information from the column.
 
-Before and after cleaning the **Name** column 
+Before and after cleaning the **Name** column
+
 ![](https://github.com/Berry-of-Tech/Titanic-Survival-Analysis/blob/main/Unclean%20Name%20column.webp)
 
 ![](https://github.com/Berry-of-Tech/Titanic-Survival-Analysis/blob/main/clean%20full%20name.webp)
+
+---
 
 Sex: The ‘Sex’ column in the Titanic dataset contained the gender of each passenger on board the ship. However, the column required some cleaning to ensure that all values were correctly labeled as ‘Male’ or ‘Female’.
 
@@ -75,6 +84,8 @@ Sex: The ‘Sex’ column in the Titanic dataset contained the gender of each pa
 after cleaning the **Sex** column
 
 By cleaning the ‘Sex’ column, I was able to ensure that all values were consistently labeled, which is essential for accurate analysis and interpretation of the data.
+
+---
 
 **Age:** The Age column in the Titanic dataset contained the age of each passenger on board the ship. First, I inspected the ‘Age’ column to identify any missing or erroneous values. After inspection. I noticed that the column contained several missing values, which we needed to address before proceeding with any analysis.
 
@@ -90,9 +101,11 @@ To create the Age Bracket column, I used Excel’s ‘IF’ function to assign e
 
 By creating the Age Bracket column, I was able to simplify our analysis and compare survival rates across different age groups. This is essential for identifying patterns and trends in the data and for drawing meaningful conclusions.
 
-Age Bracket column
+**Age Bracket column**
 
-![]()
+![](https://github.com/Berry-of-Tech/Titanic-Survival-Analysis/blob/main/Age%20bracket%20column.png)
+
+---
 
 **Parch and SibSp:** The Parch and SibSp columns in the Titanic dataset contained information about the number of parents/children and siblings/spouses that each passenger had onboard the ship. I decided to combine these two columns to create a new column called ‘Family Aboard’ using SUM() Function which would provide us with a more comprehensive understanding of each passenger’s family situation.
 
@@ -102,7 +115,11 @@ After creating the ‘Family Aboard’ column, I decided to create a new column 
 
 ![](https://github.com/Berry-of-Tech/Titanic-Survival-Analysis/blob/main/Family%20details.webp)
 
+---
+
 **Ticket:** The Ticket column in the Titanic dataset contained information about the ticket number of each passenger onboard the ship. It doesn't have any effect in the analysis, so i dropped it
+
+---
 
 **Fare:** The ‘Fare’ column in the Titanic dataset contained information about the cost of each passenger’s ticket.
 
@@ -112,6 +129,8 @@ Before and after cleaning the Fare column
 
 ![]()
 
+---
+
 **Embarked:** The ‘Embarked’ column in the Titanic dataset contained information about the port of embarkation for each passenger.
 
 Before and after cleaning the embarked column
@@ -120,12 +139,13 @@ Before and after cleaning the embarked column
 
 ![](https://github.com/Berry-of-Tech/Titanic-Survival-Analysis/blob/main/embarked%20after%20cleaning.webp)
 
-I replace these abbreviations with their corresponding port names by using find and replace tab.
+I replaced these abbreviations with their corresponding port names by using find and replace tab.
 
+Our new spalkling Titanic dataset
 
 ![]()
 
-Our new spalkling Titanic dataset
+
 
 ## 5. INSIGHTS
 
@@ -137,7 +157,7 @@ Survival Rates by Family Size: Further analysis showed the survival rates of pas
 
 This is what our Dashboard looks like
 
-![]()
+![](https://github.com/Berry-of-Tech/Titanic-Survival-Analysis/blob/main/Titanic%20Survival%20Dashboard.jpg)
 
 ## 6. CONCLUSION
 
