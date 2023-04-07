@@ -79,7 +79,7 @@ Before and after cleaning the **Name** column
 
 Sex: The ‘Sex’ column in the Titanic dataset contained the gender of each passenger on board the ship. However, the column required some cleaning to ensure that all values were correctly labeled as ‘Male’ or ‘Female’.
 
-![](https://github.com/Berry-of-Tech/Titanic-Survival-Analysis/blob/main/Sex%20column%20after%20cleaning.webp)
+![]()
 
 after cleaning the **Sex** column
 
@@ -127,7 +127,7 @@ Before and after cleaning the Fare column
 
 ![](https://github.com/Berry-of-Tech/Titanic-Survival-Analysis/blob/main/fare%20column%20before%20cleaning.webp)
 
-![]()
+![](https://github.com/Berry-of-Tech/Titanic-Survival-Analysis/blob/main/Clean%20Ticket%20Fare.png)
 
 ---
 
@@ -143,7 +143,7 @@ I replaced these abbreviations with their corresponding port names by using find
 
 Our new spalkling Titanic dataset
 
-![]()
+![](https://github.com/Berry-of-Tech/Titanic-Survival-Analysis/blob/main/Clean%20titanic%20dataset.png)
 
 
 
