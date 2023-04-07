@@ -4,7 +4,7 @@
 
 ## 1. INTRODUCTION
 
-The Titanic was a British luxury passenger liner that was built in 1912 and owned by the White Star Line. It was one of the largest and most opulent ships of its time, measuring 882 feet in length and weighing 46,328 gross tons. The Titanic was designed to carry up to 3,547 passengers and crew and boasted state-of-the-art amenities such as a swimming pool, gym, Turkish bath, and squash court. Tragically, the Titanic sank on its maiden voyage from Southampton, England, to New York City after striking an iceberg in the North Atlantic Ocean on April 14, 1912. The disaster resulted in the loss of over 1,500 lives, making it one of the deadliest commercial peacetime maritime disasters in modern history.
+Titanic was a British passenger liner, operated by the White Star Line, which sank in the North Atlantic Ocean on 15 April 1912 after striking an iceberg during her maiden voyage from Southampton, England, to New York City, United States. Of the estimated 2,224 passengers and crew aboard, more than 1,500 died, making it the deadliest commercial peacetime maritime disasters in modern history.
 
 > The tool used for this project was Microsoft Excel
 
